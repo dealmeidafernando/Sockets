@@ -11,7 +11,7 @@ public class Cliente {
   
   public Cliente() {
     try {
-      socket = new Socket("10.159.26.219",9600); 
+      socket = new Socket("192.168.1.106",9600); 
     }    
     catch (Exception e) {
       System.out.println("Nao consegui resolver o host...");
